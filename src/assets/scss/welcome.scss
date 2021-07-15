@@ -1,0 +1,15 @@
+@import './variable.scss';
+.Welcome-Container {
+  @extend %container;
+}
+
+.Welcome-Logo {
+  img {
+    position: absolute;
+    left: 137px;
+    top: 346px;
+    padding: 15px 30px;
+    background: #ffdf3d;
+    border-radius: 19px;
+  }
+}

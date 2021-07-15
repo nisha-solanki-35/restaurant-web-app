@@ -1,0 +1,27 @@
+@import './variable.scss';
+
+.Lan-Container {
+  @extend %container;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  P {
+    font-weight: 800;
+    font-size: 20px;
+  }
+}
+
+.Lan-Btn {
+  margin: 20px;
+  width: 250px;
+  height: 47px;
+  background-color: transparent;
+  border: 3px solid #ffd100;
+  border-radius: 14px;
+  font-weight: 800;
+  font-size: 22px;
+  &:hover {
+    background-color: #ffd100;
+  }
+}
